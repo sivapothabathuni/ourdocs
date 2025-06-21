@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Welcome</title>
-</head>
-<body>
-  <h1>Welcome to Your Flask App on Render!</h1>
-  <p>If you see this, deployment worked! 🎉</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+  <h1>Welcome to OurDocs.website!</h1>
+  <p>Your documentation hub is live! 🚀</p>
+{% endblock %}
